@@ -64,7 +64,6 @@ def x_minimum(*args):
     global Gbest
     Gbest = min(args, key=func)
 
-
 # Fungsi untuk yang akan mengambil langsung nilai xi dan menympannya kedalam array Pbesti jika sedang dalam iterasi pertama
 def fx_minimum_iterasi1(x1,x2,x3,x4,x5,x6,x7,x8,x9,x10):
     Pbesti.append(x1)
